@@ -7,13 +7,14 @@ import Navbar from "./Components/Navbar";
 import VideoGallery from "./Components/Videos/VideoGallery";
 import Footer from "./Footer";
 import "./index.css";
+import "./App.css"
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <WhyOrbitClasses />
+      <WhyOrbitClasses/>
       <Courses />
       <Faculty/>
       <VideoGallery/>

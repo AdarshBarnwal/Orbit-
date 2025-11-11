@@ -12,26 +12,6 @@
 }
 
 /* Glowing background shapes */
-.faculty-section::before,
-.faculty-section::after {
-    content: "";
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.25), transparent 70%);
-    filter: blur(120px);
-    z-index: 0;
-}
-
-.faculty-section::before {
-    top: -100px;
-    left: -150px;
-}
-
-.faculty-section::after {
-    bottom: -120px;
-    right: -150px;
-}
 
 /* ===============================
    HEADINGS
