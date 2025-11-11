@@ -1,0 +1,87 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../assets/Hero.webp") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    /* header + navbar ka offset */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h4 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: var(--primary);
+    margin-bottom: 0.6rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.Welcome-text{
+    color: #62fae6;
+}
+
+.hero-content p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background: var(--primary);
+    border: none;
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #009e8a;
+}
+
+.btn-outline {
+    border: 2px solid var(--white);
+    background: transparent;
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: var(--white);
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+}
