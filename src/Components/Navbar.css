@@ -64,10 +64,11 @@
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: 70px;
+    top: 93px;
+    width: 100%;
     right: 0;
     flex-direction: column;
-    background: rgba(6, 77, 88, 0.699);
+    background: rgba(157, 229, 240, 0.178);
     padding: 2rem 0;
     align-items: center;
     gap: 1.5rem;

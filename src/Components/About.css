@@ -2,6 +2,7 @@
    WHY ORBIT CLASSES SECTION
    ======================= */
 .whyorbit-section {
+    width: 100vw;
     background: linear-gradient( #39494B 0%, #0f172a 50%, #1e293b 100%);
     color: #f8fafc;
     text-align: center;
@@ -14,10 +15,6 @@
 .whyorbit-section::before {
     content: "";
     position: absolute;
-    top: -100px;
-    left: -100px;
-    width: 400px;
-    height: 400px;
     background: radial-gradient(circle, rgba(20, 241, 200, 0.25), transparent 70%);
     filter: blur(80px);
 }
@@ -25,8 +22,6 @@
 .whyorbit-section::after {
     content: "";
     position: absolute;
-    bottom: -100px;
-    right: -100px;
     width: 400px;
     height: 400px;
     background: radial-gradient(circle, rgba(6, 182, 212, 0.25), transparent 70%);

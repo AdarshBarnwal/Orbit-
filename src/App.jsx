@@ -1,6 +1,5 @@
 import WhyOrbitClasses from "./Components/About";
 import AboutContactSection from "./Components/AboutContactSection";
-import Allroute from "./Components/Allroute";
 import Courses from "./Components/Courses";
 import Faculty from "./Components/Faculty/Faculty";
 import Hero from "./Components/Hero";
@@ -14,7 +13,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Allroute />
       <WhyOrbitClasses />
       <Courses />
       <Faculty/>
