@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src="../src/assets/logo.png" alt="" /></div>
+      <div className="logo"><img src="https://drive.google.com/file/d/1h8DlvcOrBIoFOs0MHj8rCyf6It19Z0R4/view?usp=sharing" alt="" /></div>
 
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li>Home</li>
